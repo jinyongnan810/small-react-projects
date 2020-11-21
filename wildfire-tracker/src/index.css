@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.map {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.location-icon {
+  font-size: 30px;
+  color: red;
+}
+
+.location-info {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+  height: 150px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: aliceblue;
+}
+.location-info h3 {
+  text-align: center;
+}
